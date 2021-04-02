@@ -1,1 +1,61 @@
 
+
+/* Style the navigation bar */
+#navbar {
+    background-color: #fff; /* White background color */
+    position: fixed; /* Navbar doesn't move */
+    top: 0; /* Positions navbar on top of the page */
+    width: 100%; /* Navbar spans the full width of the page */
+    transition: top 0.3s; /* Transition sliding effect when scrolling down/up */
+}
+
+/* Positions most links on the right */
+.right-links {
+    float: right;
+    padding: 15px;
+}
+/* Positions my name on the left */
+.left-links {
+    float: left;
+    text-align: center center;
+    padding: 15px;
+}
+/* Styles the navigation bar links */
+#navbar a {
+    color: black;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+/* Styles navigation bar links when mouse is hovered over them */
+#navbar a:hover {
+    color: #ddd; 
+}
+
+/* Styles the hero image */
+.hero {
+    /* Image Used */
+    background-image: url("hero_image.jpg");
+
+    /* Full height */
+    height: 100vh;
+    width: 100vw;
+
+    /* Center and scale */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* makes image 'stick' to its position */
+}
+
+h2 {
+    color: #254c5f;
+    font-family: 'Playfair Display';
+}
+p {
+    font-family: 'Crimson Text', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
+}
