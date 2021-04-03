@@ -52,7 +52,7 @@ body {
     text-decoration: none;
     text-align: center;
     transition: top 1s;
-    top: 50px;
+    top: -700px;
 }
 
 .floating-menu button {
