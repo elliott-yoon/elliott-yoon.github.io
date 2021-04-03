@@ -51,6 +51,8 @@ body {
     height: 220px;
     text-decoration: none;
     text-align: center;
+    transition: top 1s;
+    top: 50px;
 }
 
 .floating-menu button {
