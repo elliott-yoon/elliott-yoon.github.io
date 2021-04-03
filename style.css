@@ -53,8 +53,7 @@ body {
     background-attachment: fixed; /* makes image 'stick' to its position */
 }
 
-h2 {
-    
+.experience__content h2, .introduction__content h2, .future__content h2, .body-text h2 {
     color: #093449;
     font-size: 4rem;
     font-family: 'Crimson Text', serif;
@@ -101,5 +100,42 @@ h3 a {
     text-align: center;
     padding-top: 10rem;
     padding-bottom: 2rem;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8rem;
 }
 
+/* About Page styling */
+
+.about-text__container {
+    /* border:15px solid green; */
+    margin-top: 8rem;
+    width: 40%;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    text-align: justify; 
+    font-family: 'Crimson Text', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
+    line-height: 20px; 
+    font-size: 0.8rem;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-bottom: none;
+}
+
+.about-text__container h2 {
+    padding-top: none;
+    font-size: 2.25rem;
+    text-align: left;
+    color: #093449;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Playfair Display', serif;
+}
