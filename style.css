@@ -18,13 +18,14 @@
 .left-links {
     float: left;
     text-align: center center;
-    padding: 15px;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Playfair Display', serif;
 }
 /* Styles the navigation bar links */
 #navbar a {
     color: black;
-    font-family: 'Crimson Text', serif;
-    font-family: 'Playfair Display', serif;
     text-align: center;
     padding: 15px;
     text-decoration: none;
