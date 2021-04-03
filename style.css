@@ -1,31 +1,33 @@
-
+body {
+    margin: 0;
+}
 
 /* Style the navigation bar */
 #navbar {
-    background-color: #fff; /* White background color */
+    background-color: #d1cbf7; /* White background color */
     position: fixed; /* Navbar doesn't move */
     top: 0; /* Positions navbar on top of the page */
-    width: 100%; /* Navbar spans the full width of the page */
+    width: 100vw; /* Navbar spans the full width of the page */
     transition: top 0.3s; /* Transition sliding effect when scrolling down/up */
 }
 
 /* Positions most links on the right */
 .right-links {
     float: right;
-    padding: 15px;
+    padding: 25px;
 }
 /* Positions my name on the left */
 .left-links {
     float: left;
     text-align: center center;
     padding: 10px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: 'Crimson Text', serif;
     font-family: 'Playfair Display', serif;
 }
 /* Styles the navigation bar links */
 #navbar a {
-    color: black;
+    color: #093449;
     text-align: center;
     padding: 15px;
     text-decoration: none;
@@ -52,11 +54,52 @@
 }
 
 h2 {
-    color: #254c5f;
-    font-family: 'Playfair Display';
+    
+    color: #093449;
+    font-size: 4rem;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+h3 {
+    color: #093449;
+    font-size: 1rem; 
+    text-align: center;
 }
 p {
     font-family: 'Crimson Text', serif;
     font-family: 'Playfair Display', serif;
     font-family: 'Raleway', sans-serif;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    text-align: center;
+    line-height: 25px;
 }
+li {
+    font-family: 'Crimson Text', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    text-align: left;
+    line-height: 25px;
+}
+
+a:link, a:visited {
+    color: blue;
+}
+h3 a {
+    text-decoration: none;
+}
+#body-text {
+    margin: 15px;
+}
+
+#footer {
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+}
+
