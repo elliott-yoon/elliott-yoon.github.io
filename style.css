@@ -52,7 +52,7 @@ body {
     text-decoration: none;
     text-align: center;
     transition: top 1s;
-    top: 70px;
+    top: -700px;
 }
 
 .floating-menu button {
@@ -164,7 +164,7 @@ h3 a {
 
 /* About Page styling */
 
-.about-text__container {
+.about-text__container, .contact-text__container {
     /* border:15px solid green; */
     margin-top: 8rem;
     width: 40%;
@@ -187,7 +187,7 @@ img {
     padding-bottom: none;
 }
 
-.about-text__container h2 {
+.about-text__container h2, .contact-text__container h2 {
     padding-top: none;
     font-size: 2.25rem;
     text-align: left;
