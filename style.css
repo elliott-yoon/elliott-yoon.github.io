@@ -91,6 +91,7 @@ body {
     /* Full height */
     height: 100vh;
     width: 100vw;
+    top: -10;
 
     /* Center and scale */
     background-repeat: no-repeat;
