@@ -168,7 +168,7 @@ h3 a {
 .about-text__container, .contact-text__container {
     /* border:15px solid green; */
     margin-top: 8rem;
-    width: 40%;
+    width: 60%;
     padding: 10px;
     margin-right: auto;
     margin-left: auto;
@@ -178,7 +178,7 @@ h3 a {
     font-family: 'Playfair Display', serif;
     font-family: 'Raleway', sans-serif;
     line-height: 20px; 
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 img {
     display: block;
@@ -190,7 +190,7 @@ img {
 
 .about-text__container h2, .contact-text__container h2 {
     padding-top: none;
-    font-size: 2.25rem;
+    font-size: 2.75rem;
     text-align: left;
     color: #093449;
     font-family: 'Crimson Text', serif;
